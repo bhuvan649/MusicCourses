@@ -13,7 +13,24 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
+  --animate-scroll: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
+  @keyframes scroll {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
 }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;     
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; 
+  }
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -27,6 +44,8 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 @keyframes spotlight {
   0% {
