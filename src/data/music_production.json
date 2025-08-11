@@ -1,0 +1,28 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Intro to Music Production",
+      "description": "Learn the fundamentals of recording, arranging, and mixing using modern DAWs like Ableton Live, FL Studio, and Logic Pro.",
+      "image": "/images/music_production/intro.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Mixing & Mastering Essentials",
+      "description": "Master EQ, compression, reverb, and stereo imaging to make your tracks sound professional and polished.",
+      "image": "/images/music_production/mixing.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Sound Design with Synths",
+      "description": "Explore the art of creating unique sounds using synthesizers, samplers, and sound manipulation techniques.",
+      "image": "/images/music_production/sound_design.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Music Production Workflow",
+      "description": "Learn how to optimize your production process from idea to final track with efficient tools and techniques.",
+      "image": "/images/music_production/workflow.jpg"
+    }
+  ]
+}

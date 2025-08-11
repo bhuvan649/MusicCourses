@@ -1,0 +1,47 @@
+'use client'
+import React from "react";
+import Image from "next/image";
+import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+import courseData from "@/data/advanced_composition.json";
+
+export default function AdvancedCompositionPage() {
+  return (
+    <div className="min-h-screen bg-black py-12 pt-36">
+      <h1 className="text-lg md:text-6xl text-center font-sans font-bold mb-4 text-white">
+        {courseData.title}
+      </h1>
+      <p className="text-neutral-400 text-center max-w-2xl mx-auto mb-10">
+        {courseData.description}
+      </p>
+
+      <div className="flex flex-wrap justify-center">
+        {courseData.lessons.map((lesson) => (
+          <CardContainer key={lesson.id} className="inter-var m-4">
+            <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl 
+              dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] 
+              border-black/[0.1] w-auto sm:w-[25rem] h-auto rounded-xl p-6 border">
+              
+              <CardItem translateZ="50" className="text-xl font-bold text-neutral-600 dark:text-white">
+                {lesson.title}
+              </CardItem>
+
+              <CardItem as="p" translateZ="60" className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300">
+                {lesson.description}
+              </CardItem>
+
+              <CardItem translateZ="100" className="w-full mt-4">
+                <Image
+                  src={lesson.image}
+                  height="1000"
+                  width="1000"
+                  className="h-52 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                  alt={lesson.title}
+                />
+              </CardItem>
+            </CardBody>
+          </CardContainer>
+        ))}
+      </div>
+    </div>
+  );
+}

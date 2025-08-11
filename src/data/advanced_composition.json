@@ -1,0 +1,18 @@
+{
+  "title": "Advanced Composition",
+  "description": "Master advanced music composition techniques for professional music creation.",
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Orchestration Techniques",
+      "description": "Learn how to arrange music for different instruments effectively.",
+      "image": "/images/orchestration.png"
+    },
+    {
+      "id": 2,
+      "title": "Songwriting Mastery",
+      "description": "Learn how to write professional-level songs with emotional impact.",
+      "image": "/images/songwriting.jpeg"
+    }
+  ]
+}

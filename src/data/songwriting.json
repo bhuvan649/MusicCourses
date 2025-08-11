@@ -1,0 +1,22 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Lyric Writing Essentials",
+      "description": "Craft powerful lyrics that connect with your audience.",
+      "image": "/images/lyric-writing.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Melody Creation",
+      "description": "Learn how to create memorable melodies for your songs.",
+      "image": "/images/melody-creation.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Song Structure and Arrangement",
+      "description": "Organize verses, choruses, and bridges for maximum impact.",
+      "image": "/images/song-structure.jpg"
+    }
+  ]
+}

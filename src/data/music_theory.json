@@ -1,0 +1,28 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "title": "Musical Notes",
+      "description": "Learn the seven basic notes (A, B, C, D, E, F, G) and their role in creating melodies.",
+      "image": "/images/notes.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Scales",
+      "description": "Understand major and minor scales, and how they form the foundation of music.",
+      "image": "/images/scales.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Chords",
+      "description": "Discover how chords are built and how they bring harmony to music.",
+      "image": "/images/chords.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Rhythm",
+      "description": "Explore beats, tempo, and time signatures that give music its pace.",
+      "image": "/images/rhythm.jpg"
+    }
+  ]
+}
